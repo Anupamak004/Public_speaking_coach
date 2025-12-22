@@ -1,0 +1,146 @@
+/* ------------ HIDE STREAMLIT DEFAULTS ------------ */
+#MainMenu {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+.st-emotion-cache-tn0cau {
+    gap: 0 !important;
+}
+
+.st-emotion-cache-zy6yx3{
+    padding: 0;
+}
+
+/* RESET */
+body {
+    background-color: #f9fafb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-inner {
+    max-width: 1300px;
+    margin: auto;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 30px;
+    font-weight: 1000;
+    color: #0f172a;
+}
+
+.nav-links button {
+    background: none;
+    border: none;
+    margin-left: 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f766e;
+    cursor: pointer;
+}
+
+.nav-links button:hover {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    padding: 3rem 1rem;
+}
+
+.hero h1 {
+    font-size: 44px;
+    color: #b8b9bf;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #babdc1;
+    margin-top: 1rem;
+}
+
+.hero ul {
+    margin-top: 1.5rem;
+    padding-left: 1.2rem;
+}
+
+.hero li {
+    font-size: 16px;
+    margin-bottom: 0.6rem;
+}
+
+/* LOGIN CARD */
+
+/* LOGIN CARD - GLASS EFFECT */
+
+
+.login-card h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.login-card .stButton>button {
+    width: 100%;
+    background: #0f766e;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 12px;
+    font-weight: 600;
+    border: none;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 1rem;
+    color: #64748b;
+}
+
+/* FOOTER */
+/* Make app take full screen height */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Streamlit root container */
+[data-testid="stApp"] {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content wrapper (we create this manually) */
+.main-content {
+    flex: 1;
+    /* takes all remaining space */
+}
+
+/* Footer */
+.footer {
+    padding: 1rem;
+    text-align: center;
+    color: #6b7280;
+    font-size: 14px;
+    border-top: 1px solid #e5e7eb;
+    background: #ffffff;
+}
+
