@@ -1,8 +1,8 @@
 import whisper
 
-# Load once (important for performance)
+# Load once
 model = whisper.load_model("base")
 
 def extract_text(audio_path):
     result = model.transcribe(audio_path)
-    return result["text"]
+    return result["text"], result["segments"]

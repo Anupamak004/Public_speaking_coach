@@ -1,0 +1,117 @@
+/* ------------ HIDE STREAMLIT DEFAULTS ------------ */
+#MainMenu {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+.st-emotion-cache-tn0cau {
+    gap: 0 !important;
+}
+
+.st-emotion-cache-zy6yx3 {
+    padding: 20px;
+}
+
+/* ---------- GLOBAL ---------- */
+body {
+    background-color: #0e1117;
+    color: #e6e6e6;
+    font-family: "Inter", sans-serif;
+}
+
+/* ---------- HEADERS ---------- */
+h1,
+h2,
+h3 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+.main-container {
+    max-width: 1100px;
+    margin: 30px auto 60px auto;
+    padding: 0 20px;
+}
+
+.welcome-box {
+    background: linear-gradient(135deg, #ffffff, #182848);
+    padding: 20px 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.welcome-box h2 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.welcome-box p {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* ---------- FILE UPLOADER ---------- */
+[data-testid="stFileUploader"] {
+    border: 2px dashed #ffffff;
+    border-radius: 12px;
+    padding: 18px;
+    background-color: #111827;
+    max-width: 360px;
+}
+
+[data-testid="stFileUploader"] section {
+    text-align: center;
+}
+
+[data-testid="stFileUploader"] button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 14px;
+}
+
+/* ---------- VIDEO PREVIEW ---------- */
+video {
+    max-width: 420px !important;
+    max-height: 240px !important;
+    border-radius: 12px;
+    border: 1px solid #2a2a2a;
+}
+
+/* ---------- BUTTON ---------- */
+.stButton>button {
+    background: linear-gradient(90deg, #2563eb, #1e40af);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 18px;
+    width: 220px;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(90deg, #1e40af, #2563eb);
+}
+
+/* ---------- METRICS ---------- */
+[data-testid="stMetric"] {
+    background-color: #111827;
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #1f2937;
+}
+
+/* ---------- DATAFRAMES ---------- */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+}
